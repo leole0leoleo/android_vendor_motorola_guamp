@@ -1,1 +1,1 @@
-# android_vendor_motorola_guamp
+# Vendor blobs

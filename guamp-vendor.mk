@@ -1258,3 +1258,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamp/proprietary/vendor/radio/qcril_database/upgrade/8_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/radio/qcril_database/upgrade/8_version_qcrildb.sql \
     vendor/motorola/guamp/proprietary/vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql \
     vendor/motorola/guamp/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/ueventd.rc
+    
+    
+    PRODUCT_PACKAGES += \
+    libantradio \
+    libsdm-disp-vndapis \
+    libthermalclient \
+    libloc_api_v02 \
+    vendor.qti.hardware.fm@1.0 \
+    WfdService \
+    CneApp \
+    IWlanService \
+    TimeService \
+    QtiTelephonyService \
+    PowerOffAlarm \
+    dpmserviceapp \
+    ims \
+    qcrilmsgtunnel \
+    WfdCommon

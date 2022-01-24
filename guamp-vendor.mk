@@ -2,10 +2,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/guamp
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/guamp/proprietary/vendor/app/CACertService/CACertService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/CACertService/CACertService.apk \
-    vendor/motorola/guamp/proprietary/vendor/app/CneApp/CneApp.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/CneApp/CneApp.apk \
-    vendor/motorola/guamp/proprietary/vendor/app/IWlanService/IWlanService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/IWlanService/IWlanService.apk \
-    vendor/motorola/guamp/proprietary/vendor/app/TimeService/TimeService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/TimeService/TimeService.apk \
     vendor/motorola/guamp/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/IPACM_cfg.xml \
     vendor/motorola/guamp/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml \
     vendor/motorola/guamp/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb \
@@ -1222,17 +1218,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamp/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so \
     vendor/motorola/guamp/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/motorola/guamp/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/motorola/guamp/proprietary/vendor/overlay/MotoSystemUIOverlayATT.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/MotoSystemUIOverlayATT.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/MotoSystemUIOverlaySPRINT.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/MotoSystemUIOverlaySPRINT.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/MotoSystemUIOverlayTMO.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/MotoSystemUIOverlayTMO.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/MotoSystemUIOverlayUSC.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/MotoSystemUIOverlayUSC.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/MotoSystemUIOverlayVZW.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/MotoSystemUIOverlayVZW.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/SettingsProvider__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/SettingsProvider__auto_generated_rro_vendor.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/SetupWizardExt__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/SetupWizardExt__auto_generated_rro_vendor.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/SystemUI__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/SystemUI__auto_generated_rro_vendor.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/TelephonyResCommonQcom.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/TelephonyResCommonQcom.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/TelephonyResMotCommon.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/TelephonyResMotCommon.apk \
-    vendor/motorola/guamp/proprietary/vendor/overlay/framework-res__auto_generated_rro_vendor.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/overlay/framework-res__auto_generated_rro_vendor.apk \
     vendor/motorola/guamp/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/radio/qcril_database/qcril.db \
     vendor/motorola/guamp/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql \
     vendor/motorola/guamp/proprietary/vendor/radio/qcril_database/upgrade/10_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/radio/qcril_database/upgrade/10_version_qcrildb.sql \
